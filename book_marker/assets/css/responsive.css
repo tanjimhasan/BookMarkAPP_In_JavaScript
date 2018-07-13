@@ -1,0 +1,45 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+    .bordered-img {
+	    height: 350px;
+	    width: 371px;
+	}	
+	.bordered-img.left-slide-bg {
+	    margin-left: -20px;
+	}
+	h2 {
+	    margin-top: 20px;
+	}
+
+	.boxed-btn {
+	    margin-top: 10px;
+	}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+    .bordered-img {
+	    width: 100%;
+	}
+	.bordered-img.left-slide-bg {
+	    margin-left: 0;
+	}
+	.boxed-btn {
+	    margin-bottom: 40px;
+	}
+}
+/* Tablet + Mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+	
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	
+    
+}f
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}

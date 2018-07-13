@@ -1,0 +1,124 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Rubik:400,400i,500,500i,700,700i,900,900i');
+</style>
+/* Base CSS */
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
+
+a:focus,button:focus {
+    outline: 0 solid
+}
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #667677;
+    line-height: 28px;
+    position: relative;
+}
+.section-padding{
+    padding: 80px 0;
+}
+.hero-area{
+    background-image: url(../images/hero-bg.jpg);
+}
+
+.hero-area {
+    background-size:  cover;
+    background-position:  center;
+    background-color: #10B6A7;
+    position:  relative;
+    z-index: 1;
+    color: #fff;
+    padding-top: 250px;
+    padding-bottom: 175px;
+    font-weight:  300;
+}
+
+.hero-area:after {
+    position:  absolute;
+    width:  100%;
+    height:  100%;
+    left:  0;
+    top:  0;
+    background: rgb(30,177,161);
+background: -moz-linear-gradient(top, rgba(30,177,161,1) 0%, rgba(25,132,67,1) 100%);
+background: -webkit-linear-gradient(top, rgba(30,177,161,1) 0%,rgba(25,132,67,1) 100%);
+background: linear-gradient(to bottom, rgba(30,177,161,1) 0%,rgba(25,132,67,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1eb1a1', endColorstr='#198443',GradientType=0 );
+    content:  "";
+    z-index:  -1;
+    opacity: .9;
+}
+
+.hero-area h2 {
+    font-size:  55px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.site-header {
+    position:  absolute;
+    width:  100%;
+    left:  0;
+    top:  0;
+    z-index: 99;
+    padding: 40px 0;
+}
+
+.main-menu a {
+    color: #fff;
+}
+
+.main-menu ul {
+    margin:  0;
+    padding:  0;
+    list-style: none;
+}
+
+.main-menu li {
+    display:  inline-block;
+}
+
+.main-menu li a {
+    display:  block;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.main-menu li.btn {
+    background: #26BBAD;
+    margin-left: 20px;
+}
+.btn .fa-graduation-cap {
+    padding-right: 6px;
+}
+.logo h2 {
+    margin: 0;
+}
+
+.main-menu {
+    padding-top: 6px;
+}
+
+
+
+
+div#bookmarkResult a {
+    margin-left: 20px;
+}
